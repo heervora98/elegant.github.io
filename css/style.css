@@ -1,0 +1,431 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ...font-famili.. */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+html{
+    scroll-behavior: smooth;
+}
+
+.backgound-img{
+    background: url(../assets/asset\ 11.jpeg);
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+.background-color{
+    background: linear-gradient(to bottom,rgba(171,47,82,0.82) 0%,#ffaf53 100%);
+    height: 601px;
+}
+.nav-position{
+    padding-top: 10px;
+}
+.nav-logo{
+    cursor: pointer;
+}
+.nav-options a{
+    margin: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+}
+.nav-options a:hover{
+    color: #ffaf53;
+}
+.nav-active-option{
+    color: #ffaf53 !important;
+}
+#nav-icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+/* ............header......... */
+
+.header-heading{
+    font-size: 42px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-info{
+    font-family: 'Poppins', sans-serif;
+    line-height: 27px;
+    font-size: 16px;
+}
+.header-get-btn{
+    padding: 11px 47px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ab2f52;
+    color: white;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    transition-duration: 0.3s;
+}
+.header-get-btn:hover{
+    background-color: white;
+    color: #ffaf53;
+}
+.header-position{
+    height: 539px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ..................secound-page................ */
+
+.our-services-position{
+    margin-top: 136px;
+}
+.secound-page-position{
+    margin-top: 65px;
+    overflow: hidden;
+}
+.secound-page-head{
+    font-size: 31px;
+    color: #ab2f52;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.divider {
+    display: block;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 32px;
+    width: 56px;
+    height: 3px;
+    border-radius: 40px;
+    background-color: #ab2f52;
+}
+.secound-page-info{
+    font-weight: 400;
+    font-size: 17px;
+    color: gray;
+}
+.second-page-container-head{
+    font-size: 30px;
+    font-weight: 600; 
+}
+.secound-page-container-text{
+    color: #ffaf53;
+    font-size: 17px;
+    font-weight: 600;
+}
+.secound-page-container-info{
+    color: gray;
+    line-height: 27px;
+    font-size: 15px;
+    font-weight: 400; 
+}
+.secound-page-img{
+    width: 100%;
+}
+.secound-page-btn{
+    padding: 9px 22px;
+    background-color: #ffaf53;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid transparent;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+}
+.secound-page-btn:hover{
+    background-color: white;
+    color: #ffaf53;
+    border: 2px solid #ffaf53;
+}
+#secound-page-btn-icon{
+    padding-left: 10px;
+}
+.divider-2 {
+    display: block;
+    margin-top: 7px;
+    margin-bottom: 18px;
+    margin: 0 auto;
+    width: 74px;
+    height: 2px;
+    border-radius: 40px;
+    background-color: rgb(161, 161, 161);
+}
+
+.card-position{
+    margin-top: 30px;
+}
+.card-container{
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 60px 75px;
+    background-color: white;
+    box-shadow: 2px 0px 20px 0px rgba(199,199,247,0.64);
+
+}
+#card-icon{
+    color: #ffaf53;
+    font-size: 50px;
+}
+.card-heading{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 17px;
+    color: gray;
+    line-height: 26px;
+    margin-top: 15px;
+}
+.card-secound-row{
+    margin-top: 45px;
+}
+
+/* ...........................image card.................... */
+
+.img-card{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px auto;
+    font-family: 'Poppins', sans-serif;
+}
+.img-card ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 50px;
+    padding: 0px 6px;
+}
+.img-card ul li{
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding: 9px 29px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.img-card ul li.active{
+    background-color: #ab2f52;
+    border-radius: 50px;
+    color: white;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product .itembox{
+    position: relative;
+    width: 408px;
+    height: 275px;
+    margin: 5px;
+    display: block;
+}
+.product .itembox.hide{
+    display: none;
+}
+.product .itembox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.work-imag {
+    position: relative;
+    width: 100%;
+}
+.image {
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000000a8;
+    overflow: hidden;
+    width: 0;
+    height: 50%;
+    transition: .5s ease;
+}
+.overlay2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #000000a8;
+    overflow: hidden;
+    width: 0;
+    height: 50%;
+    transition: .5s ease;
+}
+.work-imag:hover .overlay {
+    width: 100%;
+}
+.work-imag:hover .overlay2 {
+    width: 100%;
+}
+@media screen and (max-width: 770px){
+    .product .itembox{
+        width: 280px;
+        height: 275px;
+    }
+    .img-card ul{
+        border: none;
+    }
+    .img-card ul li.active{
+        border-radius: 0;
+    }
+}
+
+/* .....................emplloye-info................. */
+
+.emplloye-info-position{
+    margin-top: 100px;
+}
+.emplloye-info-bg-img{
+    background-image: url(../assets/asset\ 11.jpeg);
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+.emplloye-info-bg-color{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 450px;
+    padding-top: 6%;
+}
+#emplloye-info-icon{
+    font-size: 60px;
+    color: #ab2f52;
+}
+.emplloye-info-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 28px;
+}
+
+.emplloye-name{
+    color: #ffaf53;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.emplloye-work{
+    margin-top: -20px;
+}
+#circel{
+    font-size: 12px;
+    /* padding-left: 10px; */
+}
+.circle-color{
+    color: #ab2f52;
+}
+
+/* ....................contact............ */
+
+.contact-position{
+    margin-top: 150px;
+}
+.main-contact{
+    max-width: 1140px;
+}
+.info-box{
+    padding-bottom: 30px;
+}
+.info-box .icon{
+    display: inline-block;
+    width: 30px;
+}
+.info-box .icon i{
+    font-size: 20px;
+    color: #ab2f52;
+}
+.contact-text{
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.contact-text h4{
+    margin-bottom: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contact-text p{
+    color: #96968f;
+    font-family: 'Poppins', sans-serif;
+}
+.form-group{
+    margin-bottom: 5px;
+}
+.contact-form{
+    margin-bottom: 10%;
+}
+.fname{
+    border: none;
+    border-bottom: 1px solid #1c1c1c;
+    border-radius: 0;
+    padding: 10px 10px 10px 0;
+    margin-bottom: 20px;
+    font-size: 14px;
+    width: 100%;
+}
+input[type="text"]{
+    overflow: visible;
+}
+.send-btn{
+    background-color: #ab2f52;
+    padding: 10px 30px;
+    margin-top: 5%;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    border: 2px solid transparent;
+}
+.send-btn:hover{
+    background-color: transparent;
+    border:2px solid #ab2f52;
+    color: #ab2f52;
+}
+
+/* .................footer................ */
+
+.footer-position{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.footer-bg{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
